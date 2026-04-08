@@ -1,0 +1,47 @@
+{
+  "name": "claude-bauchladen",
+  "owner": {
+    "name": "Roland",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Curated collection of Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stancl",
+      "source": {
+        "source": "github",
+        "repo": "Superheld/cc-plugin-stancl",
+        "ref": "main"
+      },
+      "description": "Skills for the stancl ecosystem: tenancy, jobpipeline, virtualcolumn",
+      "version": "0.1.0",
+      "author": {
+        "name": "Roland"
+      },
+      "homepage": "https://github.com/Superheld/cc-plugin-stancl",
+      "repository": "https://github.com/Superheld/cc-plugin-stancl",
+      "keywords": ["laravel", "tenancy", "multi-tenancy", "php"],
+      "category": "development"
+    },
+    {
+      "name": "agnz",
+      "source": {
+        "source": "github",
+        "repo": "Superheld/cc-plugin-agnz",
+        "ref": "main"
+      },
+      "description": "Sandboxed local-model agent for Claude Code. Exposes an MCP server so Claude can converse with a locally-hosted LLM (LM Studio, Ollama, any OpenAI-compatible endpoint) that has its own scoped file-system access and memory.",
+      "version": "0.2.1",
+      "author": {
+        "name": "Roland"
+      },
+      "homepage": "https://github.com/Superheld/cc-plugin-agnz",
+      "repository": "https://github.com/Superheld/cc-plugin-agnz",
+      "keywords": ["mcp", "local-llm", "ollama", "lm-studio", "agent", "sandbox"],
+      "category": "automation"
+    }
+  ]
+}
