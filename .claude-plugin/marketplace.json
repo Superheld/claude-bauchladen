@@ -17,7 +17,6 @@
         "ref": "main"
       },
       "description": "Skills for the stancl ecosystem: tenancy, jobpipeline, virtualcolumn",
-      "version": "0.1.0",
       "author": {
         "name": "Roland"
       },
@@ -34,7 +33,6 @@
         "ref": "main"
       },
       "description": "Sandboxed local-model agent for Claude Code. Exposes an MCP server so Claude can converse with a locally-hosted LLM (LM Studio, Ollama, any OpenAI-compatible endpoint) that has its own scoped file-system access and memory.",
-      "version": "0.2.1",
       "author": {
         "name": "Roland"
       },
