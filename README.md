@@ -46,10 +46,27 @@ Skills for three Laravel packages by [stancl](https://github.com/stancl): tenanc
 
 ---
 
+### [`ddd`](https://github.com/Superheld/cc-plugin-ddd) — Domain-Driven Design Guardrail
+
+A skill that teaches Claude to apply Domain-Driven Design rigorously and pushes back when patterns are misapplied or terminology drifts. Based on Eric Evans' *Domain-Driven Design* and the 2015 *DDD Reference*.
+
+**Install:** `/plugin install ddd@claude-bauchladen`
+
+**What you get:**
+
+| Skill | Activates when… |
+|---|---|
+| `ddd` | The conversation touches domain modeling, bounded contexts, aggregates, entities, value objects, services, repositories, context mapping, or any non-trivial business-logic design — even if "DDD" is not mentioned explicitly |
+
+**Requires:** Nothing — language-agnostic.
+
+---
+
 ## Install Everything
 
 ```bash
 /plugin marketplace add Superheld/claude-bauchladen
 /plugin install agnz@claude-bauchladen
 /plugin install stancl@claude-bauchladen
+/plugin install ddd@claude-bauchladen
 ```

@@ -40,6 +40,22 @@
       "repository": "https://github.com/Superheld/cc-plugin-agnz",
       "keywords": ["mcp", "local-llm", "ollama", "lm-studio", "agent", "sandbox"],
       "category": "automation"
+    },
+    {
+      "name": "ddd",
+      "source": {
+        "source": "github",
+        "repo": "Superheld/cc-plugin-ddd",
+        "ref": "main"
+      },
+      "description": "Domain-Driven Design as a guardrail skill. Loads automatically on domain modeling, bounded contexts, aggregates, entities, value objects, or context mapping — and pushes back on misapplied patterns and fuzzy terminology.",
+      "author": {
+        "name": "Roland"
+      },
+      "homepage": "https://github.com/Superheld/cc-plugin-ddd",
+      "repository": "https://github.com/Superheld/cc-plugin-ddd",
+      "keywords": ["ddd", "domain-driven-design", "architecture", "modeling", "bounded-context", "skill"],
+      "category": "development"
     }
   ]
 }
